@@ -1,0 +1,30 @@
+{
+  "name": "portafolio2022",
+  "version": "1.0.0",
+  "description": "portafolio version 2022",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githyb.com/rajdayoda"
+  },
+  "author": "Rajesh Daya Oda",
+  "license": "ISC",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-loader": "^3.1.2",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "terser-webpack-plugin": "^5.3.8",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^4.10.0"
+  }
+}
